@@ -203,7 +203,6 @@ class _AdwHeaderBarState extends State<AdwHeaderBar> {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           if (hasWindowControls && sep != null && sep[0].split(',').isNotEmpty) ...[
-                            SizedBox(width: widget.style.titlebarSpace),
                             for (var i in sep[0].split(','))
                               if (windowButtons[i] != null) windowButtons[i]!,
                             if (!widget.style.nativeControls || !kIsWeb && Platform.isLinux) SizedBox(width: widget.style.titlebarSpace),
