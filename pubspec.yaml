@@ -20,7 +20,7 @@ dependencies:
   dbus: ">=0.7.4 <1.0.0"
   flutter:
     sdk: flutter
-  flutter_svg: ">=2.0.6 <3.0.0"
+  flutter_svg:
   gsettings: ">=0.2.7 <1.0.0"
   libadwaita_core: ">=0.5.4 <2.0.0"
   package_info_plus: ">=4.0.0 <5.0.0"
